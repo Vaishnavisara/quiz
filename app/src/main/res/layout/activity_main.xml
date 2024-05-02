@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+
+        android:text="what is the name of this flower!"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="120dp"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/marigold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        >
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="2"
+            android:backgroundTint="@color/white"
+            android:onClick="onColorChange1"
+            android:text=""
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            app:strokeColor="#070606"
+            app:strokeWidth="2px" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="2"
+            android:backgroundTint="@color/white"
+            android:onClick="onColorChange2"
+            android:text=""
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            app:strokeColor="#070606"
+            app:strokeWidth="2px" />
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+            android:layout_marginTop="30dp"
+
+            >
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:backgroundTint="@color/white"
+                android:onClick="onColorChange3"
+                android:text=""
+                android:textColor="#0C0C0C"
+                android:textSize="20sp"
+                app:strokeColor="#070606"
+                app:strokeWidth="2px" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_weight="2"
+                android:backgroundTint="@color/white"
+                android:onClick="onColorChange4"
+                android:text=""
+                android:textColor="#0C0C0C"
+                android:textSize="20sp"
+                app:strokeColor="#121010"
+                app:strokeWidth="2px" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button5"-->
+<!--            android:layout_width="12dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:layout_weight="4"-->
+<!--            android:backgroundTint="@color/black"-->
+<!--            android:layout_marginLeft="65dp"-->
+<!--            android:layout_marginRight="65dp"-->
+<!--            android:onClick="clear"-->
+<!--            android:text="next"-->
+<!--            android:textSize="24sp" />-->
+<!--    </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+          android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:layout_weight="4"
+            android:backgroundTint="@color/black"
+            android:onClick="submit"
+            android:text="submit"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
